@@ -1,0 +1,29 @@
+{
+    "name": "react-native-md-hash",
+    "version": "0.9.1",
+    "description": "Message Digest native module for react-native",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "author": "nixstory@gmail.com",
+    "license": "MIT",
+    "keywords": [
+        "react-native",
+        "ios",
+        "android",
+        "sha1",
+        "sha256",
+        "sha512",
+        "hmac-sha256"
+    ],
+    "homepage": "https://github.com/reactspring/react-native-md-hash",
+    "bugs": {
+        "url": "https://github.com/reactspring/react-native-md-hash/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/reactspring/react-native-md-hash.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}
