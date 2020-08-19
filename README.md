@@ -1,6 +1,6 @@
-# React Native SHA1 / SHA256 / SHA512 / HMAC-SHA256
+# React Native MD5
 
-SHA Hash native module for react-native
+MD5 native module for react-native
 
 ## Installation
 
@@ -38,22 +38,7 @@ var Md = NativeModules.Md
 
 ```
 
-#### MD2
-```ts
-
-```
-
-#### MD4
-```ts
-
-```
-
 #### MD5
-```ts
-
-```
-
-#### MD6
 ```ts
 
 ```
