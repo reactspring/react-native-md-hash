@@ -1,5 +1,5 @@
 //
-//  RCTSha.h
+//  RCTMd.h
 //
 //  TaeHeun Lee (nixstory@gmail.com)
 

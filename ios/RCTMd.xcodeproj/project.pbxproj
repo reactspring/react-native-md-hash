@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		32D980E11BE9F11C00FA27E5 /* RCTMd.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 32D980E01BE9F11C00FA27E5 /* RCTMd.h */; };
 		32D980E31BE9F11C00FA27E5 /* RCTMd.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D980E21BE9F11C00FA27E5 /* RCTMd.m */; };
-		9BE20B5B1E4E1A3700696172 /* CipherUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE20B5A1E4E1A3700696172 /* CipherUtil.m */; };
+		9BE20B5B1E4E1A3700696172 /* MDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE20B5A1E4E1A3700696172 /* MDUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +29,8 @@
 		32D980DD1BE9F11C00FA27E5 /* libRCTMd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTMd.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D980E01BE9F11C00FA27E5 /* RCTMd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTMd.h; sourceTree = "<group>"; };
 		32D980E21BE9F11C00FA27E5 /* RCTMd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTMd.m; sourceTree = "<group>"; };
-		9BE20B591E4E1A3700696172 /* CipherUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CipherUtil.h; sourceTree = "<group>"; };
-		9BE20B5A1E4E1A3700696172 /* CipherUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CipherUtil.m; sourceTree = "<group>"; };
+		9BE20B591E4E1A3700696172 /* MDUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDUtil.h; sourceTree = "<group>"; };
+		9BE20B5A1E4E1A3700696172 /* MDUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +73,8 @@
 		32D981161BE9F1B600FA27E5 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				9BE20B591E4E1A3700696172 /* CipherUtil.h */,
-				9BE20B5A1E4E1A3700696172 /* CipherUtil.m */,
+				9BE20B591E4E1A3700696172 /* MDUtil.h */,
+				9BE20B5A1E4E1A3700696172 /* MDUtil.m */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BE20B5B1E4E1A3700696172 /* CipherUtil.m in Sources */,
+				9BE20B5B1E4E1A3700696172 /* MDUtil.m in Sources */,
 				32D980E31BE9F11C00FA27E5 /* RCTMd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

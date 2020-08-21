@@ -1,5 +1,5 @@
 //
-//  CipherUtil.m
+//  MDUtil.m
 //
 //
 //  TaeHeun Lee (nixstory@gmail.com)
@@ -8,9 +8,9 @@
 #import <CommonCrypto/CommonDigest.h>
 #import <CommonCrypto/CommonKeyDerivation.h>
 
-#import "CipherUtil.h"
+#import "MDUtil.h"
 
-@implementation CipherUtil
+@implementation MDUtil
 
 + (NSString *) toHex:(NSData *)nsdata {
     const unsigned char *bytes = (const unsigned char *)nsdata.bytes;

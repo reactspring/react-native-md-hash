@@ -1,7 +1,7 @@
 {
     "name": "react-native-md-hash",
-    "version": "0.9.1",
-    "description": "Message Digest native module for react-native",
+    "version": "1.0.0",
+    "description": "MD5 native module for react-native",
     "main": "index.js",
     "types": "index.d.ts",
     "author": "nixstory@gmail.com",
@@ -10,10 +10,7 @@
         "react-native",
         "ios",
         "android",
-        "sha1",
-        "sha256",
-        "sha512",
-        "hmac-sha256"
+        "md5"
     ],
     "homepage": "https://github.com/reactspring/react-native-md-hash",
     "bugs": {

@@ -34,7 +34,7 @@ pod install
 
 ```js
 import { NativeModules, Platform } from 'react-native'
-var Md = NativeModules.Md
+var MD = NativeModules.Md
 
 ```
 
