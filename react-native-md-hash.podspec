@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name          = 'react-native-md-hash'
-  s.version       = '1.0.2'
+  s.version       = '1.0.3'
   s.summary       = 'Native module for MD5 Hash'
   s.author        = "nixstory@gmail.com"
   s.license       = 'MIT'
