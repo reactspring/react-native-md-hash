@@ -1,6 +1,6 @@
-# React Native MD5
+# React Native MD5 Hash
 
-MD5 native module for react-native
+MD5 Hash native module for react-native
 
 ## Installation
 
@@ -62,5 +62,6 @@ var MD = NativeModules.Md
 
 #### Android Test
 ```ts
-
+[Fri Aug 21 2020 15:57:35.833]  LOG      [Android] plaing string : 1234567890
+[Fri Aug 21 2020 15:57:35.873]  LOG      [Android] MD5 hash : e807f1fcf82d132f9bb018ca6738a19f
 ```
