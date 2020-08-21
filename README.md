@@ -40,5 +40,27 @@ var MD = NativeModules.Md
 
 #### MD5
 ```ts
+  private md5 () {
+    const plain_string:string = "1234567890";
+    console.log ("[iOS] plaing string : " + plain_string);
+
+    try {
+      MD.md5(plain_string).then((hash: any) => {
+        console.log ("[iOS] MD5 hash : " + hash);
+      })
+    } catch (e) {
+        console.error(e)
+    }  
+  }
+```
+
+#### iOS Test
+```ts
+[Fri Aug 21 2020 15:48:31.205]  LOG      [iOS] plaing string : 1234567890
+[Fri Aug 21 2020 15:48:31.206]  LOG      [iOS] MD5 hash : e807f1fcf82d132f9bb018ca6738a19f
+```
+
+#### Android Test
+```ts
 
 ```
