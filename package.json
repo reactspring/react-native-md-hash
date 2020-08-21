@@ -1,7 +1,7 @@
 {
     "name": "react-native-md-hash",
-    "version": "1.0.1",
-    "description": "MD5 native module for react-native",
+    "version": "1.0.2",
+    "description": "MD5 Hash native module for react-native",
     "main": "index.js",
     "types": "index.d.ts",
     "author": "nixstory@gmail.com",

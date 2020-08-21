@@ -95,7 +95,7 @@
 			dependencies = (
 			);
 			name = RCTMd;
-			productName = RCTSha;
+			productName = RCTMd;
 			productReference = 32D980DD1BE9F11C00FA27E5 /* libRCTMd.a */;
 			productType = "com.apple.product-type.library.static";
 		};

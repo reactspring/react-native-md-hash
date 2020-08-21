@@ -1,6 +1,6 @@
 .DS_Store
-ios/RCTSha.xcodeproj/xcuserdata/*
-ios/RCTSha.xcodeproj/project.xcworkspace/*
+ios/RCTMd.xcodeproj/xcuserdata/*
+ios/RCTMd.xcodeproj/project.xcworkspace/*
 android/.idea/*
 android/.gradle/*
 android/build/*
